@@ -1,6 +1,8 @@
+package helloworldagent;
+
 import jade.core.Agent;
 
-public class HelloWorlAgent extends Agent {
+public class HelloWorldAgent extends Agent {
   protected void setup (){
     //imprime en pantalla mensaje de bienvenida
     System.out.println("Hello World. I'm an agent!");
@@ -15,3 +17,5 @@ public class HelloWorlAgent extends Agent {
     
   }
 }
+
+
